@@ -1,0 +1,209 @@
+
+body{
+    background-image: url("images/shopify.png");
+    background-repeat: no-repeat;
+    background-size: 180%;
+    background-position: 54% 0%;   
+    
+    
+}
+.main-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    padding-top: 8px;
+    padding-right: 10px;   
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.25em;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    line-height: 75px;
+    font-weight: 700;
+    
+}
+h3{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    line-height: 9px;
+    margin: -8px auto;
+    font-weight: lighter;
+    letter-spacing: -0.7px;
+}
+
+
+.email{
+    position: relative;
+    
+    top: 55px;
+    width: 20%;
+    padding: 1rem;
+   
+    
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: left;
+    margin-right: 0.5rem;
+    outline: none;
+    
+}
+
+input[type = "email"]::placeholder{
+    text-align: left;
+    font-size: 1rem;
+}
+
+.Prefrence_button{
+    
+    padding: 1rem 0;
+    border: 2px solid rgba(21, 21, 21, 0.907);
+    border-radius: 5px;
+    background-color: rgba(21, 21, 21, 0.907);
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 55px;
+    width: 11rem;
+    
+    
+}
+input[type = "button"]:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+
+.input{
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+    color: white;
+    margin-top: 6.75%;
+    font-weight: 100;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.bigPicture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+.data{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    font-family: sans-serif;
+    margin-bottom: 15rem;
+    
+}
+.iconimg{ 
+    width: 60px;   
+}
+
+.icon2{ 
+    margin-top: -215px;
+    margin-left: 380px;
+} 
+    
+.icon3{ 
+    margin-top: -190px;
+    margin-left: 750px;
+}
+.heading{
+    font-weight: 550;
+}
+.para{
+    width: 280px;
+    margin-right: 75%;
+    font-weight: 300;
+    line-height: 1.2;
+    color: rgb(128, 128, 128);
+    
+}
+.brandicon{
+    text-align: center;
+    
+
+}
+.brand{
+    padding: 2.7rem 1.3rem;
+}
+hr{
+    margin: 0% 11.5%;
+    height: 0.3px;
+    border: none;
+    background-color: rgb(170, 175, 179);
+}
+.last{
+    text-align: center;
+    font-family: sans-serif;
+    margin: 7.5rem 20rem 5rem;
+}
+.line{
+    font-size: 25px;
+    color: rgb(32, 32, 32);
+    font-weight: 300;
+    line-height: 1.5;
+}
+.author{
+    font-weight: 700;
+    color: rgba(5, 5, 5, 0.867);
+    letter-spacing: 0.5px;
+    font-size: 13px;
+}
+.submit{
+    padding: 1rem 1.55rem;
+    border: 1px solid rgba(0, 121, 61, 0.907);
+    border-radius: 5px;
+    background-color: rgba(0, 121, 61, 0.907);
+    color: white;
+    font-size: 18px;
+    display: block;
+    margin: -1.5rem auto 4rem;
+    transition: 0.2s ease;
+    transition-property: background-color, border-color, box-shadow, color;
+    
+}
+input[type = "submit"]:hover{
+    background-color: rgb(12, 82, 38);
+    cursor: pointer;
+    border: 1px solid rgb(12, 82, 38);
+    box-shadow: 0px 2px 25px 0.5px rgba(0, 0, 0, 0.2);
+    
+
+    
+    
+}
+footer{
+    text-align: right;
+    color: rgba(0, 121, 61, 0.907);
+    font-size: 18px;
+}
+.last1{
+    display: inline;
+    padding: 1rem
+}
+.last2{
+    display: inline;
+    padding: 1rem 2rem;
+    margin-right: 40px;
+}
+.last1:hover{
+    color: rgb(0, 62, 23);
+    cursor: pointer;
+}
+.last2:hover{
+    color: rgb(0, 62, 23);
+    cursor: pointer;
+}
